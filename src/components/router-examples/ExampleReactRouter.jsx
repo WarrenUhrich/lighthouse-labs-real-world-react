@@ -9,6 +9,7 @@ import Home from './Home';
 import About from './About';
 import NotFound from './NotFound';
 import PlantPokemons from './PlantPokemons';
+import NavigationButton from './NavigationButton';
 
 const ExampleReactRouter = () => {
     return (
@@ -28,6 +29,7 @@ const ExampleReactRouter = () => {
                 <Route path="/plant-pokemon/*" element={<PlantPokemons />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <NavigationButton />
         </Router>
     );
 };

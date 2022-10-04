@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 // import CustomRouter from './components/router-examples/CustomRouter';
-import ExampleReactRouter from './components/router-examples/ExampleReactRouter';
+// import ExampleReactRouter from './components/router-examples/ExampleReactRouter';
+// import StyledComponentExample from './components/styled-components/StyledComponentExample';
+import Counter from './components/context/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <CustomRouter /> */}
-    <ExampleReactRouter />
+    {/* <ExampleReactRouter /> */}
+    {/* <StyledComponentExample /> */}
+    <Counter />
   </React.StrictMode>
 );
