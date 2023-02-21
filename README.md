@@ -5,3 +5,10 @@
 ## useRef
 
 * targetting HTML elements
+
+## useContext
+
+* Default state must down via props
+* Default state cannot be passed "upward" or "laterally", only to children
+* useContext is meant to be a solution for "Global State"
+* It gives us the ability to use state without "prop-drilling"
