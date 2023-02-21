@@ -12,3 +12,7 @@
 * Default state cannot be passed "upward" or "laterally", only to children
 * useContext is meant to be a solution for "Global State"
 * It gives us the ability to use state without "prop-drilling"
+
+## Template Tag Function
+
+
