@@ -4,4 +4,4 @@
 
 ## useRef
 
-* targetting HTML elements
+
