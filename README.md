@@ -1,1 +1,5 @@
-# Lighthouse Labs | Real World React (Advanced Topic)
+# Lighthouse Labs | Real World React (Advanced Topics)
+
+* [ ] React Router
+* [ ] `useContext`
+* [ ] `useRef`
