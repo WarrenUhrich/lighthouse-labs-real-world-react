@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ReactRouterExample from './components/routing/ReactRouterExample';
+import StyledComponentExample from './components/styled-components/StyledComponentExample';
+import RefCounter from './components/useRef/RefCounter';
+// import RouterAttempt from './components/routing/RouterAttempt';
+// import Counter from './components/useContext/Counter';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RefCounter />
+      {/* <Counter /> */}
+      {/* <StyledComponentExample /> */}
+      {/* <ReactRouterExample /> */}
+      {/* <RouterAttempt /> */}
     </div>
   );
 }

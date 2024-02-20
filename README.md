@@ -1,6 +1,6 @@
 # Lighthouse Labs | Real World React (Advanced Topic)
 
-* [ ] Routing
-* [ ] Styled Components
-* [ ] `useContext` hook
-* [ ] `useRef` hook
+* [X] Routing (`react-router`)
+* [X] Styled Components
+* [X] `useContext` hook
+* [X] `useRef` hook
